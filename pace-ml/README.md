@@ -80,6 +80,13 @@ and provide correct path to backports.tempfile to PYTHONPATH variable (which is 
 
 Few checks:
   * `from backports import tempfile`
+  
+### Testing TensorFlow installation
+
+```python
+import tensorflow as tf
+tf.test.gpu_device_name()
+```
 
 
 ## References
