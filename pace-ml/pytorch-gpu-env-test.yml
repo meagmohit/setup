@@ -1,0 +1,251 @@
+name: pyt-g27
+channels:
+- pytorch
+- plotly
+- conda-forge
+- defaults
+dependencies:
+- asn1crypto=0.24.0=py27_0
+- dbus=1.13.0=h3a4f0e9_0
+- enum34=1.1.6=py27_1
+- gettext=0.19.8.1=h5e8e0c9_1
+- glib=2.56.2=h464dc38_1
+- gstreamer=1.12.5=h5856ed1_0
+- idna=2.7=py27_0
+- ipython_genutils=0.2.0=py27_0
+- jsonschema=2.6.0=py27_0
+- libiconv=1.15=h470a237_3
+- nbformat=4.4.0=py27_0
+- pcre=8.41=hfc679d8_3
+- requests=2.19.1=py27_0
+- traitlets=4.3.2=py27_0
+- urllib3=1.23=py27_0
+- xz=5.2.4=h470a237_1
+- backports=1.0=py27h63c9359_1
+- backports.functools_lru_cache=1.4=py27he8db605_1
+- backports_abc=0.5=py27h7b3c97b_0
+- blas=1.0=mkl
+- ca-certificates=2017.08.26=h1d4fec5_0
+- certifi=2017.7.27.1=py27h9ceb091_0
+- cffi=1.11.5=py27he75722e_1
+- chardet=3.0.4=py27_1
+- cryptography=2.1.4=py27h6697b16_0
+- cudatoolkit=8.0=3
+- cudnn=7.1.3=cuda8.0_0
+- cycler=0.10.0=py27hc7354d3_0
+- decorator=4.3.0=py27_0
+- expat=2.2.5=he0dffb1_0
+- fontconfig=2.12.4=h88586e7_1
+- freetype=2.8=hab7d2ae_1
+- functools32=3.2.3.2=py27h4ead58f_1
+- gst-plugins-base=1.12.2=he3457e5_0
+- icu=58.2=h9c2bf20_1
+- intel-openmp=2018.0.0=h15fc484_7
+- iopro=1.7.2=np19py27_p0
+- ipaddress=1.0.22=py27_0
+- jpeg=9b=h024ee3a_2
+- jupyter_core=4.4.0=py27_0
+- libedit=3.1=heed3624_0
+- libffi=3.2.1=hd88cf55_4
+- libgcc-ng=7.2.0=h7cc24e2_2
+- libgfortran-ng=7.2.0=h9f7466a_2
+- libpng=1.6.32=hda9c8bc_2
+- libstdcxx-ng=7.2.0=h7a57d05_2
+- libtiff=4.0.9=he85c1e1_1
+- libxcb=1.12=h84ff03f_3
+- libxml2=2.9.4=h6b072ca_5
+- matplotlib=2.1.0=py27h09aba24_0
+- mkl=2019.0=118
+- nccl=1.3.4=cuda8.0_1
+- ncurses=6.0=h9df7e31_2
+- ninja=1.8.2=py27h6bb024c_1
+- numpy=1.9.3=py27h7e35acb_3
+- olefile=0.46=py27_0
+- openssl=1.0.2m=h26d622b_1
+- pandas=0.21.0=py27he307072_1
+- pillow=5.1.0=py27h3deb7b8_0
+- pip=9.0.1=py27ha730c48_4
+- pycparser=2.19=py27_0
+- pyopenssl=17.5.0=py27hcee3be0_0
+- pyparsing=2.2.0=py27hf1513f8_1
+- pyqt=5.6.0=py27h4b1e83c_5
+- pysocks=1.6.8=py27_0
+- python=2.7.14=ha6fc286_23
+- python-dateutil=2.6.1=py27h4ca5741_1
+- pytorch=0.4.0=py27hd73e86b_0
+- pytz=2017.2=py27hcac29fa_1
+- qt=5.6.2=h974d657_12
+- readline=7.0=ha6073c6_4
+- retrying=1.3.3=py27_2
+- scipy=1.0.0=py27hf5f0f52_0
+- setuptools=36.5.0=py27h68b189e_0
+- singledispatch=3.4.0.3=py27h9bcb476_0
+- sip=4.18.1=py27he9ba0ab_2
+- six=1.11.0=py27h5f960f1_1
+- sqlite=3.20.1=hb898158_2
+- ssl_match_hostname=3.5.0.1=py27h4ec10b9_2
+- subprocess32=3.2.7=py27h373dbce_0
+- tk=8.6.7=hc745277_3
+- torchvision=0.2.1=py27_0
+- tornado=4.5.2=py27h97b179f_0
+- unixodbc=2.3.4=hc36303a_1
+- wheel=0.29.0=py27h411dd7b_1
+- zlib=1.2.11=ha838bed_2
+- plotly=3.3.0=py27_0
+- cuda80=1.0=h205658b_0
+- pip:
+  - alabaster==0.7.10
+  - anaconda-client==1.6.3
+  - anaconda-navigator==1.6.2
+  - anaconda-project==0.6.0
+  - argcomplete==1.0.0
+  - astroid==1.4.9
+  - astropy==1.3.2
+  - atari-py==0.1.6
+  - babel==2.4.0
+  - backports-abc==0.5
+  - backports.functools-lru-cache==1.4
+  - backports.shutil-get-terminal-size==1.0.0
+  - backports.ssl-match-hostname==3.4.0.2
+  - beautifulsoup4==4.6.0
+  - bitarray==0.8.1
+  - blaze==0.10.1
+  - bleach==1.5.0
+  - bokeh==0.12.5
+  - boto==2.46.1
+  - bottleneck==1.2.1
+  - cdecimal==2.3
+  - chest==0.2.3
+  - click==6.7
+  - cloudpickle==0.2.2
+  - clyent==1.2.2
+  - colorama==0.3.9
+  - conda==4.3.30
+  - configobj==5.0.6
+  - configparser==3.5.0
+  - contextlib2==0.5.5
+  - cython==0.25.2
+  - cytoolz==0.8.2
+  - dask==0.14.3
+  - datashape==0.5.4
+  - dill==0.2.5
+  - distributed==1.16.3
+  - docutils==0.13.1
+  - entrypoints==0.2.2
+  - et-xmlfile==1.0.1
+  - fastcache==1.0.2
+  - flask==0.12.2
+  - flask-cors==3.0.2
+  - funcsigs==1.0.2
+  - future==0.17.0
+  - futures==3.1.1
+  - gevent==1.2.1
+  - greenlet==0.4.12
+  - grin==1.2.1
+  - gym==0.10.8
+  - h5py==2.7.0
+  - heapdict==1.0.0
+  - html5lib==0.999
+  - imagesize==0.7.1
+  - ipykernel==4.6.1
+  - ipython==5.3.0
+  - ipython-genutils==0.2.0
+  - ipywidgets==6.0.0
+  - isort==4.2.5
+  - itsdangerous==0.24
+  - jdcal==1.3
+  - jedi==0.10.2
+  - jinja2==2.9.6
+  - joblib==0.12.5
+  - jupyter==1.0.0
+  - jupyter-client==5.0.1
+  - jupyter-console==5.1.0
+  - jupyter-core==4.3.0
+  - lazy-object-proxy==1.2.2
+  - llvmlite==0.18.0
+  - locket==0.2.0
+  - lxml==3.7.3
+  - markupsafe==0.23
+  - mistune==0.7.4
+  - mpmath==0.19
+  - msgpack-python==0.4.8
+  - multipledispatch==0.4.9
+  - navigator-updater==0.1.0
+  - nbconvert==5.1.1
+  - networkx==1.11
+  - nltk==3.2.3
+  - nose==1.3.7
+  - notebook==5.0.0
+  - numba==0.33.0+0.ge79330a.dirty
+  - numexpr==2.6.2
+  - numpydoc==0.6.0
+  - odo==0.5.0
+  - opencv-python==3.4.3.18
+  - openpyxl==2.4.7
+  - packaging==16.8
+  - pandocfilters==1.4.1
+  - partd==0.3.8
+  - pathlib2==2.2.1
+  - patsy==0.4.1
+  - pep8==1.7.0
+  - pexpect==4.2.1
+  - pickleshare==0.7.4
+  - ply==3.10
+  - progressbar2==3.38.0
+  - prompt-toolkit==1.0.14
+  - psutil==5.2.2
+  - ptyprocess==0.5.1
+  - py==1.4.33
+  - pyasn1==0.1.9
+  - pycairo==1.10.0
+  - pycosat==0.6.2
+  - pycrypto==2.6.1
+  - pycurl==7.43.0
+  - pyflakes==1.5.0
+  - pyglet==1.2.4
+  - pygments==2.2.0
+  - pylint==1.6.4
+  - pyodbc==4.0.16
+  - pyopengl==3.1.0
+  - pytest==3.0.7
+  - python-utils==2.3.0
+  - pywavelets==0.5.2
+  - pyyaml==3.12
+  - pyzmq==16.0.2
+  - qtawesome==0.4.4
+  - qtconsole==4.3.0
+  - qtpy==1.2.1
+  - redis==2.10.5
+  - rope==0.9.4
+  - scandir==1.5
+  - scikit-image==0.13.0
+  - scikit-learn==0.18.1
+  - seaborn==0.7.1
+  - simplegeneric==0.8.1
+  - snowballstemmer==1.2.1
+  - sockjs-tornado==1.0.3
+  - sortedcollections==0.5.3
+  - sortedcontainers==1.5.7
+  - spyder==3.1.4
+  - sqlalchemy==1.1.9
+  - statsmodels==0.8.0
+  - sympy==1.0
+  - tables==3.3.0
+  - tblib==1.3.2
+  - terminado==0.6
+  - testpath==0.3
+  - toolz==0.8.2
+  - torch==0.4.1
+  - tqdm==4.28.1
+  - unicodecsv==0.14.1
+  - wcwidth==0.1.7
+  - werkzeug==0.12.2
+  - widgetsnbextension==2.0.0
+  - wrapt==1.10.10
+  - xlrd==1.0.0
+  - xlsxwriter==0.9.6
+  - xlwt==1.2.0
+  - zict==0.1.2
+  - zmq==0.0.0
+prefix: /nv/hp16/magarwal37/.conda/envs/pyt-g27
+

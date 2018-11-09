@@ -1,0 +1,243 @@
+name: tf-gpu-27-copy
+channels:
+- conda-forge
+- anaconda
+- defaults
+dependencies:
+- bleach=1.5.0=py27_0
+- cudatoolkit=8.0=3
+- cudnn=7.0.5=cuda8.0_0
+- cupti=8.0.61=0
+- html5lib=0.9999999=py27_0
+- pip=9.0.1=py27_5
+- tensorflow=1.5.0=0
+- tensorflow-base=1.5.0=py27hff88cb2_1
+- tensorflow-gpu=1.5.0=0
+- tensorflow-gpu-base=1.5.0=py27had95abb_0
+- tensorflow-tensorboard=1.5.1=py27hf484d3e_1
+- backports.tempfile=1.0=py_0
+- _tflow_select=2.1.0=gpu
+- absl-py=0.6.1=py27_0
+- astor=0.7.1=py27_0
+- backports=1.0=py27_1
+- backports.weakref=1.0.post1=py27_0
+- blas=1.0=mkl
+- c-ares=1.15.0=h7b6447c_1
+- ca-certificates=2018.03.07=0
+- certifi=2018.10.15=py27_0
+- enum34=1.1.6=py27_1
+- funcsigs=1.0.2=py27_0
+- futures=3.2.0=py27_0
+- gast=0.2.0=py27_0
+- grpcio=1.14.1=py27hf8bcb03_0
+- h5py=2.8.0=py27h989c5e5_3
+- hdf5=1.10.2=hba1933b_1
+- intel-openmp=2019.0=118
+- keras-applications=1.0.6=py27_0
+- keras-preprocessing=1.0.5=py27_0
+- libedit=3.1.20170329=h6b74fdf_2
+- libffi=3.2.1=hd88cf55_4
+- libgcc-ng=8.2.0=hdf63c60_1
+- libgfortran-ng=7.3.0=hdf63c60_0
+- libprotobuf=3.6.1=hd408876_0
+- libstdcxx-ng=8.2.0=hdf63c60_1
+- linecache2=1.0.0=py27_0
+- markdown=3.0.1=py27_0
+- mkl=2019.0=118
+- mkl_fft=1.0.6=py27h7dd41cf_0
+- mkl_random=1.0.1=py27h4414c95_1
+- mock=2.0.0=py27_0
+- ncurses=6.1=hf484d3e_0
+- numpy=1.15.4=py27h1d66e8a_0
+- numpy-base=1.15.4=py27h81de0dd_0
+- openssl=1.1.1=h7b6447c_0
+- pbr=5.1.0=py27_0
+- protobuf=3.6.1=py27he6710b0_0
+- python=2.7.15=h9bab390_2
+- readline=7.0=h7b6447c_5
+- scipy=1.1.0=py27hfa4b5c9_1
+- setuptools=40.5.0=py27_0
+- six=1.11.0=py27_1
+- sqlite=3.25.2=h7b6447c_0
+- tensorboard=1.11.0=py27hf484d3e_0
+- termcolor=1.1.0=py27_1
+- tk=8.6.8=hbc83047_0
+- traceback2=1.4.0=py27_0
+- unittest2=1.1.0=py27_0
+- werkzeug=0.14.1=py27_0
+- wheel=0.32.2=py27_0
+- zlib=1.2.11=ha838bed_2
+- pip:
+  - alabaster==0.7.10
+  - anaconda-client==1.6.3
+  - anaconda-navigator==1.6.2
+  - anaconda-project==0.6.0
+  - argcomplete==1.0.0
+  - asn1crypto==0.22.0
+  - astroid==1.4.9
+  - astropy==1.3.2
+  - atari-py==0.1.6
+  - babel==2.4.0
+  - backports-abc==0.5
+  - backports.shutil-get-terminal-size==1.0.0
+  - backports.ssl-match-hostname==3.4.0.2
+  - beautifulsoup4==4.6.0
+  - bitarray==0.8.1
+  - blaze==0.10.1
+  - bokeh==0.12.5
+  - boto==2.46.1
+  - bottleneck==1.2.1
+  - cdecimal==2.3
+  - cffi==1.10.0
+  - chardet==3.0.3
+  - chest==0.2.3
+  - click==6.7
+  - cloudpickle==0.2.2
+  - clyent==1.2.2
+  - colorama==0.3.9
+  - conda==4.3.30
+  - configobj==5.0.6
+  - configparser==3.5.0
+  - contextlib2==0.5.5
+  - cryptography==1.8.1
+  - cycler==0.10.0
+  - cython==0.25.2
+  - cytoolz==0.8.2
+  - dask==0.14.3
+  - datashape==0.5.4
+  - decorator==4.0.11
+  - dill==0.2.5
+  - distributed==1.16.3
+  - docutils==0.13.1
+  - entrypoints==0.2.2
+  - et-xmlfile==1.0.1
+  - fastcache==1.0.2
+  - flask==0.12.2
+  - flask-cors==3.0.2
+  - functools32==3.2.3.post2
+  - future==0.17.1
+  - gevent==1.2.1
+  - greenlet==0.4.12
+  - grin==1.2.1
+  - gym==0.10.9
+  - heapdict==1.0.0
+  - idna==2.5
+  - imagesize==0.7.1
+  - ipaddress==1.0.18
+  - ipykernel==4.6.1
+  - ipython==5.3.0
+  - ipython-genutils==0.2.0
+  - ipywidgets==6.0.0
+  - isort==4.2.5
+  - itsdangerous==0.24
+  - jdcal==1.3
+  - jedi==0.10.2
+  - jinja2==2.9.6
+  - joblib==0.13.0
+  - jsonschema==2.6.0
+  - jupyter==1.0.0
+  - jupyter-client==5.0.1
+  - jupyter-console==5.1.0
+  - jupyter-core==4.3.0
+  - lazy-object-proxy==1.2.2
+  - llvmlite==0.18.0
+  - locket==0.2.0
+  - lxml==3.7.3
+  - markupsafe==0.23
+  - matplotlib==2.0.2
+  - mistune==0.7.4
+  - mkl-fft==1.0.6
+  - mkl-random==1.0.1
+  - mpmath==0.19
+  - msgpack-python==0.4.8
+  - multipledispatch==0.4.9
+  - navigator-updater==0.1.0
+  - nbconvert==5.1.1
+  - nbformat==4.3.0
+  - networkx==1.11
+  - nltk==3.2.3
+  - nose==1.3.7
+  - notebook==5.0.0
+  - numba==0.33.0+0.ge79330a.dirty
+  - numexpr==2.6.2
+  - numpydoc==0.6.0
+  - odo==0.5.0
+  - olefile==0.44
+  - opencv-python==3.4.3.18
+  - openpyxl==2.4.7
+  - packaging==16.8
+  - pandas==0.20.1
+  - pandocfilters==1.4.1
+  - partd==0.3.8
+  - pathlib2==2.2.1
+  - patsy==0.4.1
+  - pep8==1.7.0
+  - pexpect==4.2.1
+  - pickleshare==0.7.4
+  - pillow==4.1.1
+  - ply==3.10
+  - progressbar2==3.38.0
+  - prompt-toolkit==1.0.14
+  - psutil==5.2.2
+  - ptyprocess==0.5.1
+  - py==1.4.33
+  - pyasn1==0.1.9
+  - pycairo==1.10.0
+  - pycosat==0.6.2
+  - pycparser==2.17
+  - pycrypto==2.6.1
+  - pycurl==7.43.0
+  - pyflakes==1.5.0
+  - pyglet==1.3.2
+  - pygments==2.2.0
+  - pylint==1.6.4
+  - pyodbc==4.0.16
+  - pyopengl==3.1.0
+  - pyopenssl==17.0.0
+  - pyparsing==2.1.4
+  - pytest==3.0.7
+  - python-dateutil==2.6.0
+  - python-utils==2.3.0
+  - pytz==2017.2
+  - pywavelets==0.5.2
+  - pyyaml==3.12
+  - pyzmq==16.0.2
+  - qtawesome==0.4.4
+  - qtconsole==4.3.0
+  - qtpy==1.2.1
+  - redis==2.10.5
+  - requests==2.14.2
+  - rope==0.9.4
+  - scandir==1.5
+  - scikit-image==0.13.0
+  - scikit-learn==0.18.1
+  - seaborn==0.7.1
+  - simplegeneric==0.8.1
+  - singledispatch==3.4.0.3
+  - snowballstemmer==1.2.1
+  - sockjs-tornado==1.0.3
+  - sortedcollections==0.5.3
+  - sortedcontainers==1.5.7
+  - spyder==3.1.4
+  - sqlalchemy==1.1.9
+  - statsmodels==0.8.0
+  - subprocess32==3.2.7
+  - sympy==1.0
+  - tables==3.3.0
+  - tblib==1.3.2
+  - terminado==0.6
+  - testpath==0.3
+  - toolz==0.8.2
+  - tornado==4.5.1
+  - tqdm==4.28.1
+  - traitlets==4.3.2
+  - unicodecsv==0.14.1
+  - wcwidth==0.1.7
+  - widgetsnbextension==2.0.0
+  - wrapt==1.10.10
+  - xlrd==1.0.0
+  - xlsxwriter==0.9.6
+  - xlwt==1.2.0
+  - zict==0.1.2
+prefix: /nv/hp16/magarwal37/.conda/envs/tf-gpu-27-copy
+
