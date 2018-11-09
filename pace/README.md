@@ -33,6 +33,7 @@ Note: use `xclock` to check if the display is working. Use `-Y` flag if `-X` fla
 
 *  `qstat` : Check the running job status
     *  `qstat -u <username> -n` : Filters running jobs based on username
+    *  `qstat -a <jobID>` : Gives the total walltime and elapsed time of a job
     *  `qstat <queue-name>` : Filters jobs based on queue name e.g. `qstat force-gpu`
 *  `showq` : Query for specific jobs/queues
     *  `showq -w class=<QueueName>,user=<UserID>` : All jobs for the queue and user
