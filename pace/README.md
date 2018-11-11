@@ -96,6 +96,13 @@ python <scriptname>
     *  -m and -M for notifying through email for start, finish and error
     
 
+## Troubleshoot
+-------------
+
+### Git [fatal: HTTP request failed]
+`module load git/2.13.4`
+
+
 ## Contact for issues
 -------------
 Email: pace-support@oit.gatech.edu
