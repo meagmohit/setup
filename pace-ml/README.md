@@ -14,7 +14,7 @@ Note: Try on compute node (rather than login node)
 module load cuda/8.0.44
 module load cudnn/7.5
 module load anaconda2/latest
-conda env create —name pytorch-test —file pytorch-gpu-env-test.yml
+conda env create --name pytorch-test --file pytorch-gpu-env-test.yml
 source activate pytorch-test
 conda install pytorch==0.3.0 torchvision cuda80 -c pytorch
 pip install pyglet==1.2.4
@@ -28,7 +28,7 @@ conda install -c conda-forge glib [try twice if does not work once]
 module load cuda/8.0.44
 module load cudnn/7.5
 module load anaconda2/latest
-conda create —clone tiny-20171117 —name rl
+conda create --clone tiny-20171117 --name rl
 source activate rl
 pip install opencv-python
 pip install atari-py
@@ -60,7 +60,7 @@ torch.cuda.get_device_name(0)
 module load cuda/8.0.44
 module load cudnn/7.5
 module load anaconda2/latest
-conda env create —name tf-test —file env-tf-gpu-27.yml
+conda env create --name tf-test --file env-tf-gpu-27.yml
 ```
 
 ### For Open-AI baselines 
