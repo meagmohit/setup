@@ -28,6 +28,11 @@
 *  `tf.test.is_gpu_available()`: Check if GPU is available
 *  `tf.test.gpu_device_name()`: Get the info of available GPU devices
 
+## Installing CUDA on Alienware R10 w/ RTX 3060
+-----------------------------------------------
+* Issues with pytorch/GPU: https://discuss.pytorch.org/t/trouble-installing-torch-with-cuda-using-conda-on-wsl2/136911/2
+* 
+
 ## Installing CUDA on Alienware R8
 ----------------------------------
 * Before installing from NVIDIA's website, follow the pre-installation steps from https://docs.nvidia.com/cuda/cuda-installation-guide-linux/index.html#pre-installation-actions
