@@ -31,7 +31,8 @@
 ## Installing CUDA on Alienware R10 w/ RTX 3060
 -----------------------------------------------
 * Issues with pytorch/GPU: https://discuss.pytorch.org/t/trouble-installing-torch-with-cuda-using-conda-on-wsl2/136911/2
-* 
+* https://forums.developer.nvidia.com/t/rtx-3060-can-support-cuda-with-pytorch/178078 
+* https://towardsdatascience.com/deep-learning-gpu-installation-on-ubuntu-18-4-9b12230a1d31 
 
 ## Installing CUDA on Alienware R8
 ----------------------------------
